@@ -1,4 +1,4 @@
-class RedisCliAT0091 < Formula
+class RedisCli < Formula
   desc "Install the redis-cli only"
   homepage "https://github.com/taadis/homebrew-tap"
   url "https://download.redis.io/releases/redis-0.091.tar.gz"
