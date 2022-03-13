@@ -6,10 +6,10 @@ class RedisCli < Formula
   license "MIT"
 
   bottle do
-    root_url "https://github.com/taadis/homebrew-tap/releases/download/redis-cli-1.01"
-    sha256 cellar: :any_skip_relocation, big_sur:      "8f5a6fd2967e0ef1687e0b80d2c1826c9f278a88e876918c862e681d2e845deb"
-    sha256 cellar: :any_skip_relocation, catalina:     "86d690446e81c8a0ce7b7a23d607e50b49717a0ab04ad44eddd0023631901aad"
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "bd81fd8c92980fb77b40ea4b2cb48e75903cbb3bff109401f92d3f33e6b936e8"
+    root_url "https://github.com/taadis/homebrew-tap/releases/download/redis-cli-1.02"
+    sha256 cellar: :any_skip_relocation, big_sur:      "0604d2bb5e7d1e660689e026270fbeedc8c3d21d0bf3ce10dcd87c1963520249"
+    sha256 cellar: :any_skip_relocation, catalina:     "70d0e6675f01868659f618db7be0e6e121ab186a1c1a03922cad1b58f284ba52"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "04431e070c1248a47cf96d3168bac4f04a451e71ac05b24c4a5c2bd2c39af239"
   end
 
   depends_on "make" => :build
