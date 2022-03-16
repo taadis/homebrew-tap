@@ -1,8 +1,8 @@
 class RedisCli < Formula
   desc "Install the redis-cli only"
   homepage "https://github.com/taadis/homebrew-tap"
-  url "https://download.redis.io/releases/redis-1.02.tar.gz"
-  sha256 "aa1fe425568e19bcf89db9a48df68a42732134c29978e27c6e9c05008a73321e"
+  url "https://download.redis.io/releases/redis-1.1.90-beta.tar.gz"
+  sha256 "1fbd350a71668fbb0709c64bf421d6ffc796e8ab75bce8e0cda34ce515224a43"
   license "MIT"
 
   bottle do
